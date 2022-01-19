@@ -1,7 +1,7 @@
 <?php
 include "config.php";
 
-
+//login
 if(!isset($_SESSION['uname'])){
     header('Location: index.php');
 }
